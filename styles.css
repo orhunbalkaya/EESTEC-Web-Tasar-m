@@ -1,0 +1,121 @@
+body {
+    background-image: url("https://eestechchallenge.eestec.net/wp-content/uploads/2021/02/website-Background-01.png");
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+}
+
+#header {
+    background-color: #185280;
+    color: #ffffff;
+    width: 100%;
+    height: 98px;
+}
+
+#header_content {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1240px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.empty {
+    width: 100px;
+    height: 70px;
+    opacity: 0;
+}
+#branches {
+    padding-right: 30px;
+    margin-top: 60px;
+    font-weight: 2400;
+    font-size: 48px;
+    color: #113A5F ;
+}
+.branches_sub {
+    color: #113A5F;
+}
+
+#logo {
+    margin-top: 12px;
+}
+
+#menu {
+    display: flex;
+    width: 830px;
+    margin-left: 24%;
+}
+
+.menutab {
+    margin-left: 20px;
+    max-width: 200px;
+    list-style: none;
+    font-size: 18px;
+}
+
+#mainbody {
+    text-align: center;
+}
+
+.branch_colons {
+    width: 360px;
+    display:block;
+    margin: 10px;
+}
+#all_branches {
+    width: 1200px;
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content_wrapper {
+    height: 500px;
+    width: 380px;
+    padding: 10px;
+}
+
+.image_wrapper {
+    width: 360px;
+    height: 360px;
+    border-radius: 35px 35px 0px 0px;
+}
+
+.branch_button {
+    background-color: #328CFF;
+    font-size: 15px;
+    padding: 12px 24px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #77B3FF;
+    border-radius: 2px 2px 2px 2px;
+    color: #ffffff;
+    margin-top: 15px;
+}
+
+#footer {
+    background-color: #113A5F;
+    color: #ffffff;
+    width: 100%;
+    height: 460px;
+    display: flex;
+}
+
+#footer_overview {
+    width: 300px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+#footer_empty {
+    opacity:0;
+    height: 400px;
+}
+#footer_copyright {
+    width: 200px;
+    padding-left: 250px;
+}
+#footer_stayintouch {
+    padding-left: 200px;
+    width: 300px;
+    padding-top: 60px
+}
